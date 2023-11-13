@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>سایت تک صفحه</title>
+  <style>
+    /* استایل‌های CSS */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #9900ff;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #ffffff;
+      color: #333;
+      padding: 10px;
+      display: flex;
+      justify-content: space-between;
+      position: relative;
+    }
+
+    #logo {
+      position: relative;
+    }
+
+    #logo img {
+      width: 20%; /* تغییر اندازه لوگو به اندازه 20% از والد خود */
+      height: auto;
+    }
+
+    #logo-text {
+      font-weight: bold;
+      color: #9900ff;
+      font-size: 3em;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    #header-buttons button {
+      border-Rectangle: 70%;
+    }
+
+    #header-buttons button:nth-child(1) {
+      background-color: #2dff73;
+      font-weight: bold;
+    }
+
+    #header-buttons button:nth-child(2) {
+      background-color: #ff4791;
+      font-weight: bold;
+    }
+
+    #header-text {
+      font-weight: bold;
+      color: #9900ff;
+      font-size: 3em;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    #landing {
+      text-align: center;
+      padding: 20px;
+    }
+
+    #images-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    #landing-image {
+      width: 100%; /* تغییر اندازه تصویر لندینگ به اندازه 100% از والد خود */
+      height: auto;
+    }
+
+    #landing-description {
+      float: right;
+      font-size: 1.5em;
+      font-weight: bold;
+    }
+
+    .landing-button {
+      margin: 15px;
+      border-radius: 70%;
+      font-weight: bold;
+      color: #ff9900;
+    }
+
+    .landing-text {
+      font-size: 3em;
+      font-weight: bold;
+    }
+
+    .landing-number-button {
+      border: none;
+      margin: 10px;
+      width: 100%; /* تغییر عرض مستطیل‌ها به اندازه 100% از والد خود */
+      max-width: 250px; /* تعیین حداکثر عرض برای جلوگیری از افراز در صفحات بزرگتر */
+      height: auto; /* تغییر ارتفاع مستطیل‌ها به اندازه اتوماتیک */
+    }
+
+    .bottom-buttons {
+      display: flex;
+      justify-content: space-around;
+      flex-direction: row-reverse;
+      margin-top: 20px;
+    }
+
+    footer {
+      background-color: #f0f0f0;
+      padding: 10px;
+      text-align: center;
+    }
+
+    footer p {
+      color: #000000;
+      font-weight: bold;
+    }
+
+       /* استایل‌های واکنشگرا */
+        @media (max-width: 768px) {
+            #landing-image {
+                width: 100%; /* تغییر اندازه تصویر لندینگ به اندازه 100% از والد خود */
+                height: auto;
+            }
+
+            .landing-number-button {
+                width: 100%; /* تغییر عرض مستطیل‌ها به اندازه 100% از والد خود */
+                max-width: none; /* حذف حداکثر عرض */
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- کدهای HTML -->
+
+    <header>
+        <div id="logo">
+            <img src="https://github.com/AMN-VPN/AMN-VPN.github.io/blob/main/AMNVPN-LOGO.jpg?raw=true" alt="لوگو">
+        </div>
+        <div id="header-buttons">
+            <button onclick="window.location.href='https://go.crisp.chat/chat/embed/?website_id=e1f565cc-7e3b-4689-8f33-d66aa012be39&locale=fa&user_nickname=ticketbar'">پشتیبانی سریع با چت</button>
+            <button onclick="window.location.href='https://t.me/Arsham2023v'">پشتیبانی فوری با تلگرام</button>
+        </div>
+        <div id="header-text">AMN VPN</div>
+    </header>
+    <!-- راهنمای استفاده -->
+    <button onclick="window.location.href='https://amngroup1.space/user-manual/';" style="background-color: #00ff00; font-weight: bold;">راهنمای استفاده</button>
+
+<!-- دریافت کد دسترسی -->
+<button onclick="window.location.href='https://go.crisp.chat/chat/embed/?website_id=e1f565cc-7e3b-4689-8f33-d66aa012be39&locale=fa&user_nickname=fastsupport-%DA%A9%D8%AF-%D8%AF%D8%B3%D8%AA%D8%B1%D8%B3%DB%8C';" style="background-color: #ffcf0e; font-weight: bold;">دریافت کد دسترسی</button>
+
+
+
+    <div id="landing">
+        <div id="images-container">
+            <img id="landing-image" src="https://raw.githubusercontent.com/AMN-VPN/AMN-VPN.github.io/621f7f30009db4e21482d2efa1d7fe967769c946/LANDING-1.jpg" alt="تصویر لندینگ">
+        </div>
+        <p id="landing-description">
+            <!-- متن حذف شده است -->
+      <p class="landing-text">تعرفه ها</p>
+   </p>
+         <!-- دکمه‌ها با لینک‌ها -->
+       
+         <a href="https://amn-vpn.github.io/popup12mon/">
+            <input type="image" src="https://github.com/AMN-VPN/AMN-VPN.github.io/blob/main/12MON.jpg?raw=true" alt="خرید وی پی ان 12 ماهه" class="landing-number-button round-button">
+        </a>
+  
+           <a href="https://amn-vpn.github.io/popup6mon/">
+            <input type="image" src="https://github.com/AMN-VPN/AMN-VPN.github.io/blob/main/6MON.jpg?raw=true" alt="خرید وی پی ان 6 ماهه" class="landing-number-button round-button">
+        </a>
+
+        <a href="https://amn-vpn.github.io/popup3mon/">
+            <input type="image" src="https://github.com/AMN-VPN/AMN-VPN.github.io/blob/main/3MON.jpg?raw=true" alt="خرید وی پی ان 3 ماهه" class="landing-number-button round-button">
+        </a>
+      
+        <a href="https://amn-vpn.github.io/popup1mont/">
+            <input type="image" src="https://github.com/AMN-VPN/AMN-VPN.github.io/blob/main/1MON.jpg?raw=true" alt="خرید وی پی ان 1 ماهه" class="landing-number-button round-button">
+        </a>
+
+        
+       
+        
+   
+        <p class="landing-text">دانلود نرم افزارهای مورد نیاز </p>
+     
+    <!-- دکمه‌ها با لینک‌ها -->
+        <a href="https://github.com/hiddify/hiddify-next/releases/download/v0.5.11/hiddify-macos-universal.dmg">
+            <input type="image" src="https://raw.githubusercontent.com/AMN-VPN/AMN-VPN.github.io/9853c96b0b2c155d3477caa6ad595b729700a4f9/MAC.jpg" class="landing-number-button round-button">
+        </a>
+
+        <a href="https://apps.apple.com/us/app/v2box-v2ray-client/id6446814690">
+            <input type="image" src="https://raw.githubusercontent.com/AMN-VPN/AMN-VPN.github.io/43a6dfa916e7ef7c53292eb0af211975492e2383/IOS.jpg" class="landing-number-button round-button">
+        </a>
+
+        <a href="https://github.com/hiddify/hiddify-next/releases/download/v0.5.11/hiddify-android-universal.apk">
+            <input type="image" src="https://raw.githubusercontent.com/AMN-VPN/AMN-VPN.github.io/14c2115f85f84258f29fd59247161c6f1552c9f2/ANDROID.jpg" class="landing-number-button round-button">
+        </a>
+
+        <a href="https://github.com/hiddify/hiddify-next/releases/download/v0.5.11/hiddify-windows-x64-setup.exe">
+            <input type="image" src="https://github.com/AMN-VPN/AMN-VPN.github.io/blob/main/WINDOWS.jpg?raw=true" class="landing-number-button round-button">
+     
+        </div>
+    </div>
+</body>
+<footer>
+        <p>DESIGN BY AMN GROUP @2023</p>
+    </footer>
+</body>
+</html>
